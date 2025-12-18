@@ -1,0 +1,19 @@
+{
+  "name": "sipni-checker",
+  "version": "1.0.0",
+  "description": "Checker SIPNI para GitHub Codespaces",
+  "main": "checker.js",
+  "scripts": {
+    "start": "node checker.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": ["sipni", "checker", "datasus"],
+  "author": "Seu Nome",
+  "license": "MIT"
+}
